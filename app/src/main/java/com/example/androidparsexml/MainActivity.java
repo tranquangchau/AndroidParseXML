@@ -78,9 +78,9 @@ public class MainActivity extends Activity {
 	/*
 	 * @We are using an AsyncTask to avoid
 	 * android.os.NetworkOnMainThreadException when parsing from a URL
-	 * 
 	 * @If you don't know a thing about AsynTasks, there are a lot of excellent
 	 * tutorial out there, see this thread
+	 * https://www.codeofaninja.com/2013/02/parse-xml-in-android.html
 	 */
 
 	public List list1= new ArrayList();
